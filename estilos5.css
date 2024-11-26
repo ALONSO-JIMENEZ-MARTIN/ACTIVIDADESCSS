@@ -1,0 +1,33 @@
+h1 {front-size: 40px;}
+#contenedor1{
+    background-color: lightblue;
+    height: 375px; width: 375px;
+}
+#contenedor2{
+    background-color: lightcoral;
+    height: 375px; 
+    width: 375px;}
+p{
+    font-size: 20px;
+}
+#contenedor1 div:nth-child(2){
+    background-color: black;
+}
+#contenedor2 div:nth-child(2){
+    background-color: black;
+}
+.boton{
+    background-color: rgb(217, 116, 217);
+    height: 50px; 
+    width: 100px; 
+    margin: 10px;
+}
+.boton:hover{
+    opacity: 0.6;
+}
+#contenedor2 div:hover{
+    box-shadow: 3px 3px rgb(250, 200, 200);
+}
+#contenedor2 p;hover,h1:hover{
+    text-shadow: 3px 3px rgb(250, 200, 200);
+}

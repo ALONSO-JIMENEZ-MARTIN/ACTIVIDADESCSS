@@ -1,0 +1,23 @@
+.div1 {
+    background-color: blue;
+    width: 5cm;
+    height: 5cm;
+    color: white;}
+
+.div2 {
+    background-color: red;
+    width: 5em;
+    height: 5em;
+    color: white;}
+
+.div3 {
+    background-color: green;
+    width: 5px;
+    height: 5px;
+    color: white;}
+
+.div4 {
+    background-color: yellow;
+    width: 5rem;
+    height: 5rem;
+    color: black;}

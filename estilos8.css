@@ -1,0 +1,31 @@
+body{
+    background-color: #3b1e54;
+}
+#menu{
+    background-color: #987ebd;
+}
+article{
+    background-color: #9e7ebd;
+}
+h1{
+    color: purple; 
+    font-size: 35px;
+}
+div{
+    background-color: #eeeeee; 
+    margin: 5px; 
+    height: 45px; 
+    width: 200px;
+}
+table{
+    width: 300px;
+}
+#fila1{
+    background-color: #1230ae;
+}
+#fila2{
+    background-color: #75c8d4;
+}
+#fila3{
+    background-color: #1257de;
+}

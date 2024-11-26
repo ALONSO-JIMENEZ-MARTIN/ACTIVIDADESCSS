@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="estilos2.css">
+</head>
+<body>
+    <form>
+        <fieldset class="contenedor">
+            <legend><p><label class="clase_texto">¿QUIÉN ERES?</label></p></legend>
+            <p><label class="clase_texto">Nombre:<br><input type="text" name="Nombre"></label></p>
+            <p><label class="clase_texto">Apellidos:<br><input type="text" name="Apellidos"></label></p>
+            <p><label class="clase_texto">Correo electrónico:<br><input type="email" name="correo"></label></p>
+            <p><label class="clase_texto">Fecha de nacimiento:<br><input type="date" name="fecha_de_nacimiento" class="clase_fecha"></label></p>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset class="contenedor">
+            <legend><p><label class="clase_texto">¿DE DÓNDE ERES?</label></p></legend>
+            <p><label class="clase_texto">Ciudad:<br><input type="text" name="ciudad"></label></p>
+            <p><label class="clase_texto">Código postal:<br><input type="text" name="codigo_postal"></label></p>
+            <p><label class="clase_texto">País:<br>
+                <select name="pais" class="clase_select">
+                    <option value="mexico">México</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="espana">España</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="chile">Chile</option>
+                </select>
+            </label></p>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset class="contenedor">
+            <legend><p class="clase_texto">¿CÓMO QUIERES INICIAR SESIÓN?</p></legend>
+            <p><label class="clase_texto">Nombre de usuario:<br><input type="text" name="nombre_usuario"></label></p>
+            <p><label class="clase_texto">Contraseña:<br><input type="password" name="contraseña"></label></p>
+            <p><label class="clase_texto">Vuelve a escribir la contraseña:<br><input type="password" name="confirmar_contraseña"></label></p>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset class="contenedor">
+            <legend><p class="clase_texto">CONDICIONES DE REGISTRO</p></legend>
+            <p><label class="clase_opciones">
+                Deseo recibir ofertas de iDESWEB:<br>
+                <input type="radio" name="ofertas" value="semanal"> Una vez a la semana
+                <input type="radio" name="ofertas" value="mensual"> Una vez al mes
+            </label></p>
+            <p><label class="clase_opciones">
+                <input type="checkbox" name="terminos" required> Acepto el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies.
+            </label></p>
+        </fieldset>
+
+        <p><button type="submit" class="boton">Crear cuenta</button></p>
+    </form>
+</body>
+</html>

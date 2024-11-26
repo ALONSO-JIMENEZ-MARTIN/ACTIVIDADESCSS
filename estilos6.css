@@ -1,0 +1,12 @@
+.icon-list li {
+    list-style: none;
+    position: relative;
+    padding-left: 25px;
+}
+
+.icon-list li::before {
+    content: "\2714";
+    color: limegreen;
+    position: absolute;
+    left: 0;
+}
